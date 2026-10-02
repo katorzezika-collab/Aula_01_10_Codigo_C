@@ -1,7 +1,21 @@
 #include <stdio.h>
 
 int main() {
-  printf("Turma Etec DS!\n");
-  printf("Data 01-10-2026!\n");
+  // Student data
+  int studentID = 15;
+  int studentAge = 23;
+  float studentFee = 75.25;
+  char studentGrade = 'B';
+
+  // Print variables
+  
+  printf("Alunos da Etec\n");
+  printf("--------------------------------------\n");
+  
+  printf("Student id: %d\n", studentID);
+  printf("Student age: %d\n", studentAge);
+  printf("Student fee: %f\n", studentFee);
+  printf("Student grade: %c", studentGrade);
+
   return 0;
 }
